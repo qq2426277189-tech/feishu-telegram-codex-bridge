@@ -1,0 +1,51 @@
+{
+  "feishu": {
+    "enabled": true,
+    "larkCliPath": "C:\\path\\to\\lark-cli.exe",
+    "appId": "cli_your_feishu_app_id",
+    "chatId": "oc_your_feishu_chat_id",
+    "notifyChatId": "oc_your_feishu_chat_id"
+  },
+  "telegram": {
+    "enabled": true,
+    "botToken": "YOUR_TELEGRAM_BOT_TOKEN",
+    "allowedUserIds": [
+      123456789
+    ],
+    "notifyChatId": 123456789,
+    "proxyUrl": "http://127.0.0.1:7890"
+  },
+  "codex": {
+    "executable": "",
+    "home": "~/.codex",
+    "cwd": "./data/workspace",
+    "timeoutMs": 1200000,
+    "probeTimeoutMs": 90000
+  },
+  "ccSwitch": {
+    "enabled": true,
+    "settingsPath": "~/.cc-switch/settings.json"
+  },
+  "storage": {
+    "dataDir": "./data",
+    "artifactRetentionHours": 24
+  },
+  "protocol": {
+    "path": "./docs/REMOTE_TASK_PROTOCOL.md"
+  },
+  "sync": {
+    "agentsFiles": []
+  },
+  "limits": {
+    "healthCheckMs": 900000,
+    "healthAlertDedupMs": 1800000,
+    "maxTaskHistory": 500,
+    "maxReply": 4000,
+    "maxTurnsPerSession": 20,
+    "batchWaitMs": 5000,
+    "maxArchive": 8,
+    "modelWatchMs": 5000,
+    "modelSwitchSettleMs": 2500,
+    "modelProbeRetryMs": 300000
+  }
+}

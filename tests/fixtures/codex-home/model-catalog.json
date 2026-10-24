@@ -1,0 +1,17 @@
+{
+  "models": [
+    {
+      "slug": "example-model",
+      "display_name": "Example Model",
+      "description": "Fixture model for self-tests",
+      "context_window": 32768,
+      "default_reasoning_level": "high",
+      "supported_reasoning_levels": [
+        { "effort": "high", "description": "High" }
+      ],
+      "shell_type": "shell_command",
+      "supported_in_api": true,
+      "visibility": "list"
+    }
+  ]
+}
