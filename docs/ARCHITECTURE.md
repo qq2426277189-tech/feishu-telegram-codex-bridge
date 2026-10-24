@@ -1,5 +1,8 @@
 # Architecture
 
+[简体中文](ARCHITECTURE.zh-CN.md) | **English**
+
+
 ## Goals
 
 The bridge is designed around four invariants:

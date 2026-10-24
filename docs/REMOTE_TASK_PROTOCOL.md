@@ -1,5 +1,8 @@
 # Remote Task Protocol
 
+[简体中文](REMOTE_TASK_PROTOCOL.zh-CN.md) | **English**
+
+
 This document defines the safety and verification rules used by the bridge. The bridge injects it into every remote task and may optionally synchronize it into configured `AGENTS.md` files.
 
 ## 1. Clarify before acting

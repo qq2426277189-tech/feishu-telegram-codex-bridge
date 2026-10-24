@@ -1,5 +1,8 @@
 # Security Policy
 
+[简体中文](SECURITY.zh-CN.md) | **English**
+
+
 ## Supported deployment
 
 This project is intended for a personal or trusted machine. It can execute commands and GUI actions with the permissions of the account running the bridge. Treat that account as a security boundary.

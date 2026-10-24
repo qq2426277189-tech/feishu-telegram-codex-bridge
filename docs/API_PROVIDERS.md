@@ -1,5 +1,8 @@
 # Official, Self-Hosted, and Relay APIs
 
+[简体中文](API_PROVIDERS.zh-CN.md) | **English**
+
+
 The bridge does not contain a model-provider implementation. It invokes the Codex CLI using the active Codex configuration. That means the same bridge can work with:
 
 - an official OpenAI/ChatGPT/Codex login;

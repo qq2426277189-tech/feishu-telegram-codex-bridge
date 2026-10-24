@@ -1,5 +1,8 @@
 # Contributing
 
+[简体中文](CONTRIBUTING.zh-CN.md) | **English**
+
+
 ## Before opening a PR
 
 1. Do not include real credentials, personal IDs, chat logs, screenshots, or downloaded files.

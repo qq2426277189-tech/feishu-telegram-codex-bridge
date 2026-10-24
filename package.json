@@ -27,13 +27,5 @@
   "license": "MIT",
   "dependencies": {
     "undici": "^8.12.3"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/qq2426277189-tech/feishu-telegram-codex-bridge.git"
-  },
-  "bugs": {
-    "url": "https://github.com/qq2426277189-tech/feishu-telegram-codex-bridge/issues"
-  },
-  "homepage": "https://github.com/qq2426277189-tech/feishu-telegram-codex-bridge#readme"
+  }
 }
