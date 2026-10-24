@@ -108,7 +108,7 @@ The minimal probe uses:
 codex exec --ephemeral --json --sandbox read-only
 ```
 
-The bridge never passes a hard-coded `--model` flag.
+The bridge never passes a hard-coded `--model` flag. The provider may be an official API, a self-hosted compatible gateway, a relay, or a local proxy; the bridge follows the active Codex/CC Switch configuration rather than maintaining a provider allowlist.
 
 ## Health model
 
